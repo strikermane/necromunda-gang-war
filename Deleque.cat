@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="6096-c4de-a416-351b" name="Deleque" revision="2" battleScribeVersion="2.03" authorName="Strikermane" library="false" gameSystemId="e0b2-fd9d-e110-5cee" gameSystemRevision="24" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <comment></comment>
+  <readme>Deleque Gang Roster - Made this for my Gang, since i couldnt find a gang list as of pushing this update July 2020.
+
+Info From Gangs of Underhive Supplement</readme>
+  <entryLinks>
+    <entryLink id="be39-f0b2-51b8-632a" name="Champion" hidden="false" collective="false" import="true" targetId="52cb-8b73-7269-a002" type="selectionEntry"/>
+    <entryLink id="c045-6407-f6e9-ecb6" name="Ganger" hidden="false" collective="false" import="true" targetId="dacf-aada-2e5b-ebf3" type="selectionEntry"/>
+    <entryLink id="3e2e-277c-5e5b-bd10" name="Juve" hidden="false" collective="false" import="true" targetId="4502-17d3-bdb8-a3ce" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="6bf4-4bb7-250e-ff99" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d5b6-1aea-331b-3a47" name="Leader" hidden="false" collective="false" import="true" targetId="4480-48f3-b9e1-9b63" type="selectionEntry"/>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="52cb-8b73-7269-a002" name="Champion" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bc40-fd06-04ba-8994" name="Champion" hidden="false" typeId="5774-f79f-a3b7-e72d" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="6bb5-d80e-a19b-1d1a">5&quot;</characteristic>
+            <characteristic name="WS" typeId="b63f-b3e0-0943-d7a9">3+</characteristic>
+            <characteristic name="BS" typeId="0fa7-30b4-4582-f621">3+</characteristic>
+            <characteristic name="S" typeId="aba3-75b1-4a66-c5ed">3</characteristic>
+            <characteristic name="T" typeId="0358-5ace-b5c0-d69b">3</characteristic>
+            <characteristic name="W" typeId="ca12-f503-7ae4-42ff">2</characteristic>
+            <characteristic name="I" typeId="ac2f-586a-f7df-3a8d">4+</characteristic>
+            <characteristic name="A" typeId="a987-af50-0bb1-fd2a">2</characteristic>
+            <characteristic name="Ld" typeId="3f60-5808-1589-9540">7+</characteristic>
+            <characteristic name="Cl" typeId="5eb8-bad4-7afc-b90c">6+</characteristic>
+            <characteristic name="Wil" typeId="7245-c85d-e087-81fe">6+</characteristic>
+            <characteristic name="Int" typeId="d87a-5740-fb44-5134">6+</characteristic>
+            <characteristic name="Sv" typeId="e95c-5198-5d83-5098">6+ / 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2b12-c1cf-e735-8298" name="Flak Armour" hidden="false" targetId="4d13-d821-bbbd-b25c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="114b-3ea5-93fc-0d29" name="Champion" hidden="false" targetId="1e3c-093e-fc09-60c2" primary="false"/>
+        <categoryLink id="1053-4350-93e8-6725" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b502-f02b-3dea-be55" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="18a0-9262-2884-1266" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b548-e022-988b-c148" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="8682-9ea1-8019-cd70" name="Captured" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="d785-d2a6-8cc6-b9b8" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6c3c-fa42-9125-a68e" name="Lasting Injury" publicationId="e0b2-fd9d-pubN101711" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1101-24a9-1535-6e65" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a52d-388f-2414-8e95" name="Lasting Injury" hidden="false" collective="false" import="true" targetId="e530-f7e5-8369-3684" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="daf1-b535-5df9-8290" name="Recovery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b1da-4bd3-831b-1a28" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="33af-cf83-3541-982e" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="185c-d9e7-ae8a-57f0" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0158-2256-8231-116d" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="e9fd-f66b-6d17-9194" name="Skills" hidden="false" collective="false" import="true">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="20c2-7be0-2120-5e01" name="1. Primary" hidden="false" collective="false" import="true">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b76f-7ecd-7ce7-867b" type="min"/>
+                      </constraints>
+                      <entryLinks>
+                        <entryLink id="667d-0ae3-0a3f-2245" name="Shooting Skills" hidden="false" collective="false" import="true" targetId="519a-5e85-3e00-6646" type="selectionEntryGroup"/>
+                        <entryLink id="a440-0c84-ff18-3081" name="Cunning Skills" hidden="false" collective="false" import="true" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="6314-bd8f-7e18-d97a" name="2. Secondary" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="f575-dc1b-f4b8-370b" name="Agility Skills" hidden="false" collective="false" import="true" targetId="5540-db72-7835-b7a1" type="selectionEntryGroup"/>
+                        <entryLink id="db29-24d2-4475-acc8" name="Leadership Skills" hidden="false" collective="false" import="true" targetId="6568-3fd4-2fd6-b3ae" type="selectionEntryGroup"/>
+                        <entryLink id="4a75-79f5-c96f-913e" name="Savant Skills" hidden="false" collective="false" import="true" targetId="80af-190c-66a8-5752" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="ab33-9936-438a-18be" name="3. Other" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="aab7-7fe2-7550-7c37" name="Brawn Skills" hidden="false" collective="false" import="true" targetId="62c9-9a76-f529-4682" type="selectionEntryGroup"/>
+                        <entryLink id="3dda-3c71-d679-a374" name="Combat Skills" hidden="false" collective="false" import="true" targetId="a8f1-c99d-283d-91ce" type="selectionEntryGroup"/>
+                        <entryLink id="b5c9-30fb-b48b-d684" name="Ferocity Skills" hidden="false" collective="false" import="true" targetId="098e-032a-96df-90c7" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="d34f-d941-5392-5596" name="Character" hidden="false" collective="false" import="true" targetId="8eb4-4b46-30fa-264b" type="selectionEntryGroup"/>
+          </entryLinks>
+        </selectionEntry>
+        <selectionEntry id="de23-3546-91a4-674c" name="Wargear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abe7-5edb-8124-e9df" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ddef-2b9c-2028-0d47" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4f4e-e3c2-db6d-831f" name="Wargear" hidden="false" collective="false" import="true" targetId="3bb9-ee5d-3d4b-ad19" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0b66-04c5-47d1-427c" name="Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1ef2-4125-1dae-b04d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="77c5-f954-438c-3d3b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="36ca-83d8-7d7b-0129" name="Trading Post" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd0d-16be-c283-f96e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b5de-b29f-b71b-84b0" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="bd30-8e0a-9ba3-ce3d" name="Trading Post" hidden="false" collective="false" import="true" targetId="3736-d8e3-4eca-45a8" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="44c5-515a-35ca-9eb3" name="Weapons" hidden="false" collective="false" import="true" targetId="aacd-b97c-246f-28b0" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="95.0"/>
+        <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dacf-aada-2e5b-ebf3" name="Ganger" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="582c-35eb-79fc-f8c5" name="Ganger" hidden="false" typeId="5774-f79f-a3b7-e72d" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="6bb5-d80e-a19b-1d1a">5&quot;</characteristic>
+            <characteristic name="WS" typeId="b63f-b3e0-0943-d7a9">4+</characteristic>
+            <characteristic name="BS" typeId="0fa7-30b4-4582-f621">4+</characteristic>
+            <characteristic name="S" typeId="aba3-75b1-4a66-c5ed">3</characteristic>
+            <characteristic name="T" typeId="0358-5ace-b5c0-d69b">3</characteristic>
+            <characteristic name="W" typeId="ca12-f503-7ae4-42ff">1</characteristic>
+            <characteristic name="I" typeId="ac2f-586a-f7df-3a8d">4+</characteristic>
+            <characteristic name="A" typeId="a987-af50-0bb1-fd2a">1</characteristic>
+            <characteristic name="Ld" typeId="3f60-5808-1589-9540">7+</characteristic>
+            <characteristic name="Cl" typeId="5eb8-bad4-7afc-b90c">6+</characteristic>
+            <characteristic name="Wil" typeId="7245-c85d-e087-81fe">7+</characteristic>
+            <characteristic name="Int" typeId="d87a-5740-fb44-5134">7+</characteristic>
+            <characteristic name="Sv" typeId="e95c-5198-5d83-5098">6+ / 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d470-0944-f762-51e4" name="Flak Armour" hidden="false" targetId="4d13-d821-bbbd-b25c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="93c9-6b9b-c2af-2de7" name="New CategoryLink" hidden="false" targetId="cdf5-5a61-da3a-147b" primary="false"/>
+        <categoryLink id="e8f3-0f87-e301-be78" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="9baa-afe3-f6ac-3917" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2b0c-8435-dd94-a772" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a5cc-3013-8563-617b" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5388-e0db-3afd-a238" name="Captured" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b91a-d960-bbb8-ef76" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f85c-0d84-9dd6-90d2" name="Recovery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fa04-66ab-0add-9b6e" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b8fa-373a-85b3-f229" name="Lasting Injury" publicationId="e0b2-fd9d-pubN101711" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e170-8dca-fa92-5606" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="6ddf-ea2c-5d63-5402" name="Lasting Injury" hidden="false" collective="false" import="true" targetId="e530-f7e5-8369-3684" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="2093-1d24-f55a-9d63" name="Character" hidden="false" collective="false" import="true" targetId="8eb4-4b46-30fa-264b" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7c89-4a62-4770-8159" name="Wargear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb77-7098-9687-b342" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac2f-0009-b459-ec22" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9338-c2f8-832e-f003" name="Wargear" hidden="false" collective="false" import="true" targetId="3bb9-ee5d-3d4b-ad19" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3afa-2ed6-033f-fd89" name="Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f048-8792-2067-1ee6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e91-9a0c-0afc-6c3a" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9c3b-2592-aa6e-4823" name="Trading Post" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e3c-e917-6ede-7454" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="41f1-2536-497b-8d98" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4ff1-dad0-0f8b-d0fc" name="Trading Post" hidden="false" collective="false" import="true" targetId="3736-d8e3-4eca-45a8" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="1a17-1d20-c277-c731" name="Weapons" hidden="false" collective="false" import="true" targetId="aacd-b97c-246f-28b0" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="50.0"/>
+        <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4502-17d3-bdb8-a3ce" name="Juve" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e159-743d-4ad8-5c54" name="Juve" hidden="false" typeId="5774-f79f-a3b7-e72d" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="6bb5-d80e-a19b-1d1a">6&quot;</characteristic>
+            <characteristic name="WS" typeId="b63f-b3e0-0943-d7a9">4+</characteristic>
+            <characteristic name="BS" typeId="0fa7-30b4-4582-f621">5+</characteristic>
+            <characteristic name="S" typeId="aba3-75b1-4a66-c5ed">2</characteristic>
+            <characteristic name="T" typeId="0358-5ace-b5c0-d69b">3</characteristic>
+            <characteristic name="W" typeId="ca12-f503-7ae4-42ff">1</characteristic>
+            <characteristic name="I" typeId="ac2f-586a-f7df-3a8d">2+</characteristic>
+            <characteristic name="A" typeId="a987-af50-0bb1-fd2a">1</characteristic>
+            <characteristic name="Ld" typeId="3f60-5808-1589-9540">8+</characteristic>
+            <characteristic name="Cl" typeId="5eb8-bad4-7afc-b90c">9+</characteristic>
+            <characteristic name="Wil" typeId="7245-c85d-e087-81fe">8+</characteristic>
+            <characteristic name="Int" typeId="d87a-5740-fb44-5134">8+</characteristic>
+            <characteristic name="Sv" typeId="e95c-5198-5d83-5098">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <categoryLinks>
+        <categoryLink id="9e56-3e90-91b2-0a89" name="New CategoryLink" hidden="false" targetId="d851-fa2f-77d1-d30b" primary="false"/>
+        <categoryLink id="b4cc-5b0d-d84b-6fe3" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="734d-b5e9-f001-ffb6" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="784d-3549-fe00-d4a4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="71ca-cd89-5084-473e" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="59f2-0b23-0ab5-682e" name="Captured" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="00f4-b55d-52dd-9419" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9cca-7fb5-a3d8-6293" name="Recovery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9bb7-dfb9-8811-c886" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1476-3849-8b55-e17d" name="Lasting Injury" publicationId="e0b2-fd9d-pubN101711" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9b12-742a-9ea0-2e8d" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="a273-968b-96f6-7568" name="Lasting Injury" hidden="false" collective="false" import="true" targetId="e530-f7e5-8369-3684" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c3b2-9300-4b8e-caab" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="950b-25e9-2169-c02f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2d74-4bf9-601a-76e3" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ff45-2296-663c-4424" name="Skills" hidden="false" collective="false" import="true">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="86c3-54b0-f911-48ab" name="1. Primary" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="005a-0eff-4b80-5b54" name="Cunning Skills" hidden="false" collective="false" import="true" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="48f5-bdb9-9a06-e05d" name="2. Secondary" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="7876-62a7-14cf-eec5" name="Shooting Skills" hidden="false" collective="false" import="true" targetId="519a-5e85-3e00-6646" type="selectionEntryGroup"/>
+                        <entryLink id="2e18-1f76-53e0-a51c" name="Agility Skills" hidden="false" collective="false" import="true" targetId="5540-db72-7835-b7a1" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="d7d6-fbc0-5cf0-edb8" name="3. Other" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="1bce-fa24-cb7c-9c72" name="Savant Skills" hidden="false" collective="false" import="true" targetId="80af-190c-66a8-5752" type="selectionEntryGroup"/>
+                        <entryLink id="8c89-22eb-7c57-b550" name="Leadership Skills" hidden="false" collective="false" import="true" targetId="6568-3fd4-2fd6-b3ae" type="selectionEntryGroup"/>
+                        <entryLink id="c233-4eaa-1256-8101" name="Brawn Skills" hidden="false" collective="false" import="true" targetId="62c9-9a76-f529-4682" type="selectionEntryGroup"/>
+                        <entryLink id="1255-9ef2-342a-9125" name="Ferocity Skills" hidden="false" collective="false" import="true" targetId="098e-032a-96df-90c7" type="selectionEntryGroup"/>
+                        <entryLink id="60df-c81d-c881-f80b" name="Combat Skills" hidden="false" collective="false" import="true" targetId="a8f1-c99d-283d-91ce" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="cf9e-8c77-0ea3-3d95" name="Character" hidden="false" collective="false" import="true" targetId="8eb4-4b46-30fa-264b" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="7f8a-2809-ec58-49b6" name="Wargear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b94b-6bdf-66e0-dcf1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="eae3-09f8-11ac-cc4b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2eed-1dee-738f-20c3" name="Juve Wargear" hidden="false" collective="false" import="true" targetId="ad9e-2e9f-ab04-a8b3" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="f197-7cc7-7765-46d3" name="Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9fc9-55ef-00f8-80d4" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b0a3-62a9-97d6-ebd6" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="5077-5e4b-c04f-39b8" name="Trading Post" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3964-0313-5d32-311a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0829-eae9-3361-74f4" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7f11-bbcd-18ea-b5a3" name="Juve Trading Post" hidden="false" collective="false" import="true" targetId="484f-fd2e-80bb-7ba4" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="83ee-1ad1-44fd-6d17" name="Juve Weapons" hidden="false" collective="false" import="true" targetId="6395-922c-64e9-4ed7" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="20.0"/>
+        <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4480-48f3-b9e1-9b63" name="Leader" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4d69-b8d1-8fab-9846" name="Leader" hidden="false" typeId="5774-f79f-a3b7-e72d" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="6bb5-d80e-a19b-1d1a">5&quot;</characteristic>
+            <characteristic name="WS" typeId="b63f-b3e0-0943-d7a9">3+</characteristic>
+            <characteristic name="BS" typeId="0fa7-30b4-4582-f621">3+</characteristic>
+            <characteristic name="S" typeId="aba3-75b1-4a66-c5ed">3</characteristic>
+            <characteristic name="T" typeId="0358-5ace-b5c0-d69b">3</characteristic>
+            <characteristic name="W" typeId="ca12-f503-7ae4-42ff">2</characteristic>
+            <characteristic name="I" typeId="ac2f-586a-f7df-3a8d">2+</characteristic>
+            <characteristic name="A" typeId="a987-af50-0bb1-fd2a">3</characteristic>
+            <characteristic name="Ld" typeId="3f60-5808-1589-9540">5+</characteristic>
+            <characteristic name="Cl" typeId="5eb8-bad4-7afc-b90c">6+</characteristic>
+            <characteristic name="Wil" typeId="7245-c85d-e087-81fe">6+</characteristic>
+            <characteristic name="Int" typeId="d87a-5740-fb44-5134">7+</characteristic>
+            <characteristic name="Sv" typeId="e95c-5198-5d83-5098">6+ / 5+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b664-ada2-82bf-3646" name="Flak Armour" hidden="false" targetId="4d13-d821-bbbd-b25c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f9d2-4124-2d8d-e426" name="New CategoryLink" hidden="false" targetId="3f48-3cf7-6934-2b29" primary="false"/>
+        <categoryLink id="f975-618e-aec7-b694" name="New CategoryLink" hidden="false" targetId="ca12-6ac2-dc47-76ec" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e546-306f-ad85-d622" name="Character" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b71d-09d9-0909-80d0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35b8-a67a-7303-f369" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="9ea7-adce-76c6-3997" name="Skills" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fff-757d-56fe-2c2d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e405-0a59-db63-281e" type="max"/>
+              </constraints>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="f0d6-4cfc-da0d-2605" name="Skills" hidden="false" collective="false" import="true">
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="00ac-6175-8942-7653" name="1. Primary" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="cad6-cd70-98a5-2974" name="Agility Skills" hidden="false" collective="false" import="true" targetId="5540-db72-7835-b7a1" type="selectionEntryGroup"/>
+                        <entryLink id="5e1f-e4d5-a864-01be" name="Cunning Skills" hidden="false" collective="false" import="true" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup"/>
+                        <entryLink id="e1b1-f845-fbe6-26ea" name="Leadership Skills" hidden="false" collective="false" import="true" targetId="6568-3fd4-2fd6-b3ae" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="1d1a-a587-98a0-e4af" name="2. Secondary" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="da3b-9ded-527d-bfdc" name="Shooting Skills" hidden="false" collective="false" import="true" targetId="519a-5e85-3e00-6646" type="selectionEntryGroup"/>
+                        <entryLink id="df8d-c456-5ad1-9b4e" name="Savant Skills" hidden="false" collective="false" import="true" targetId="80af-190c-66a8-5752" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                    <selectionEntryGroup id="1e0a-2206-9691-80b8" name="3. Other" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="56c3-7926-795f-ac95" name="Character" hidden="false" collective="false" import="true" targetId="8eb4-4b46-30fa-264b" type="selectionEntryGroup"/>
+                        <entryLink id="00b5-2bde-26ba-80cc" name="Combat Skills" hidden="false" collective="false" import="true" targetId="a8f1-c99d-283d-91ce" type="selectionEntryGroup"/>
+                        <entryLink id="5a6a-699d-bddd-0b5f" name="Brawn Skills" hidden="false" collective="false" import="true" targetId="62c9-9a76-f529-4682" type="selectionEntryGroup"/>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0bff-9fcc-a16a-6d73" name="Recovery" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7868-b1c4-3ec5-f7f7" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="3778-8c2b-e362-9e1b" name="Lasting Injury" publicationId="e0b2-fd9d-pubN101711" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4096-f373-f57c-06e5" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="175a-8aef-e306-2ef1" name="Lasting Injury" hidden="false" collective="false" import="true" targetId="e530-f7e5-8369-3684" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0ae3-bbc4-1a1f-15de" name="Captured" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fdb1-771c-c3b4-4849" type="max"/>
+              </constraints>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="9977-8fd3-f7d3-641d" name="Character" hidden="false" collective="false" import="true" targetId="8eb4-4b46-30fa-264b" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a018-3ba1-056c-a915" name="Wargear" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3c3-fc7d-c993-b777" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="138a-ef56-266d-42f5" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4ab2-1701-74b0-7404" name="Wargear" hidden="false" collective="false" import="true" targetId="3bb9-ee5d-3d4b-ad19" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d724-6821-659d-36c4" name="Weapons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1157-f69a-a388-d027" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="35d6-ed85-95d9-c899" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="38cf-d180-d81f-db4a" name="Trading Post" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e47-b916-1b79-f2a9" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0934-91e7-8ba5-e1a4" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="6f85-81a3-3ebf-168c" name="Trading Post" hidden="false" collective="false" import="true" targetId="3736-d8e3-4eca-45a8" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+                <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+                <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="24da-e9eb-5510-d3ce" name="Weapons" hidden="false" collective="false" import="true" targetId="aacd-b97c-246f-28b0" type="selectionEntryGroup"/>
+          </entryLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="120.0"/>
+        <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+        <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="8eb4-4b46-30fa-264b" name="Character" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="971e-9148-23e1-e0ee" name="Specialist" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cdf5-5a61-da3a-147b" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed3-f92e-3ece-0bcc" type="max"/>
+          </constraints>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="e949-bef3-a6eb-5f46" name="Skills" hidden="false" collective="false" import="true">
+              <selectionEntryGroups>
+                <selectionEntryGroup id="678e-66c6-fabe-a63d" name="1. Primary" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="4eae-6fa1-dea9-5c9f" name="Shooting Skills" hidden="false" collective="false" import="true" targetId="519a-5e85-3e00-6646" type="selectionEntryGroup"/>
+                    <entryLink id="1da4-215a-2d8b-7d21" name="Cunning Skills" hidden="false" collective="false" import="true" targetId="fdf4-77c8-9400-9b57" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="340e-60a2-892f-702d" name="2. Secondary" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="33ee-11e2-55c1-d49f" name="Combat Skills" hidden="false" collective="false" import="true" targetId="a8f1-c99d-283d-91ce" type="selectionEntryGroup"/>
+                    <entryLink id="0e33-77b2-de7d-ff91" name="Agility Skills" hidden="false" collective="false" import="true" targetId="5540-db72-7835-b7a1" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6ec1-9536-9e00-ef79" name="3. Other" hidden="false" collective="false" import="true">
+                  <entryLinks>
+                    <entryLink id="690d-4612-a26f-e82b" name="Brawn Skills" hidden="false" collective="false" import="true" targetId="62c9-9a76-f529-4682" type="selectionEntryGroup"/>
+                    <entryLink id="d45d-ef2d-5332-a5a1" name="Ferocity Skills" hidden="false" collective="false" import="true" targetId="098e-032a-96df-90c7" type="selectionEntryGroup"/>
+                    <entryLink id="26c0-4368-9bd5-b29b" name="Savant Skills" hidden="false" collective="false" import="true" targetId="80af-190c-66a8-5752" type="selectionEntryGroup"/>
+                    <entryLink id="f213-1807-a37a-e298" name="Leadership Skills" hidden="false" collective="false" import="true" targetId="6568-3fd4-2fd6-b3ae" type="selectionEntryGroup"/>
+                  </entryLinks>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="0.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="0.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="86f7-13f5-cb13-a4c1" name="Experience" hidden="false" collective="false" import="true" targetId="e82d-4dce-7631-3ce0" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4f9b-50e3-8298-a20b" name="Deleque Weapons" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4019-b952-5803-91e1" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="4465-40fd-36b2-4957" name="Stiletto Knife" hidden="false" collective="false" import="true" targetId="d449-22c2-4378-77dd" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="20.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7978-c1ac-983f-662f" name="Shock Stave" hidden="false" collective="false" import="true" targetId="42c4-4abf-bbfa-ab2c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1626-0e0e-9c52-1158" name="Digi Laser" hidden="false" collective="false" import="true" targetId="a65f-17e0-9f85-f81a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="ad42-77f2-ca1b-39b8" name="Web Pistol" hidden="false" collective="false" import="true" targetId="d88f-ce09-30f8-8c1f" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35.0">
+                  <comment>Place Holder for Web Gauntlet</comment>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3e96-219f-b251-a9c0" name="Basic Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="765b-234c-880c-82e4" name="Lasgun" hidden="false" collective="false" import="true" targetId="3543-33b8-2d23-60a2" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="d9c9-1b40-a707-5b15" name="Autogun" hidden="false" collective="false" import="true" targetId="ee08-a780-98fd-77bf" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="5bbf-c567-f422-840f" name="Shotgun" hidden="false" collective="false" import="true" targetId="082a-0d1c-4596-7bec" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="1741-cb25-b1ea-8321" name="Stiletto Knife" hidden="false" collective="false" import="true" targetId="d449-22c2-4378-77dd" type="selectionEntry">
+              <comment>Place holder for Throwing Knives</comment>
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1bd1-080b-3c6f-f13d" name="Pistols" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="456f-4bc6-7045-c5a5" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="436c-8c00-aaa0-7f07" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="50.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="e243-a744-b103-27b2" name="Laspistol" hidden="false" collective="false" import="true" targetId="cd74-7781-d3f5-1a7a" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="fc69-5256-b651-0d6c" name="Autopistol" hidden="false" collective="false" import="true" targetId="3900-a54c-5f61-84f0" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="909e-e6e2-9fd5-e13f" name="Hand Flamer" hidden="false" collective="false" import="true" targetId="0268-eeed-ed95-176c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="75.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7823-fb58-28c1-fb1e" name="Web Pistol" hidden="false" collective="false" import="true" targetId="d88f-ce09-30f8-8c1f" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="80.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f702-5372-0038-57a7" name="Plasma Pistol" hidden="false" collective="false" import="true" targetId="436c-8c00-aaa0-7f07" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="a642-cfa8-b9c0-af89" name="Autogun/flamer - Combi-weapon" hidden="false" collective="false" import="true" targetId="4ae0-2ad4-f986-59ca" type="selectionEntry">
+              <comment>Place holder for Flechette Pistol</comment>
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30.0">
+                  <comment>Place holder for Flechette Pistol</comment>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c41b-f6e6-201e-f52c" name="Special Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="360e-3406-0700-4fb7" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="ac72-264a-b99b-5236" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="55"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f0ad-f574-5643-a27e" name="Long Rifle" hidden="false" collective="false" import="true" targetId="c65d-9790-88a7-279b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7d5e-9e39-5859-22f6" name="Grav-gun" hidden="false" collective="false" import="true" targetId="9e07-85df-677d-4caf" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="120.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="7114-eeb9-5774-8259" name="Flamer" hidden="false" collective="false" import="true" targetId="be55-8508-6166-ccc3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="140.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="9db2-faae-1887-9e8e" name="Meltagun" hidden="false" collective="false" import="true" targetId="803c-78a8-d848-cd19" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="135"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="3e5c-f2ac-ef06-b4a6" name="Plasma Gun" hidden="false" collective="false" import="true" targetId="e760-b239-367c-0427" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="100.0"/>
+              </modifiers>
+            </entryLink>
+            <entryLink id="f876-a60b-0ef8-8cac" name="Web gun" hidden="false" collective="false" import="true" targetId="0d41-17b5-0132-e0d6" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="115.0"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="199d-8705-bb47-7b32" name="Heavy Weapons" hidden="false" collective="false" import="true">
+          <entryLinks>
+            <entryLink id="8b19-0994-d479-d0b9" name="Heavy Flamer" hidden="false" collective="false" import="true" targetId="c95c-b2de-dab6-1ee7" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="195"/>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2583-c0e6-ea49-07d5" name="Juve Close Combat Weapons" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="fc0e-e353-d89a-6d09" name="Stiletto Knife" hidden="false" collective="false" import="true" targetId="d449-22c2-4378-77dd" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="20"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="d25f-a085-3167-7030" name="Juve Pistols" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="3ba0-2018-b805-d805" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="c0d6-1a46-60ee-5177" name="Autopistol" hidden="false" targetId="bfc9-00f1-ff8a-0483" type="profile"/>
+            <infoLink id="49d6-0ec4-1436-87bc" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule"/>
+            <infoLink id="a40b-2fc5-b3a5-d55f" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="896c-e468-e06f-fd80" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
+          <infoLinks>
+            <infoLink id="b1ff-cdc2-77b6-1776" name="Laspistol" hidden="false" targetId="a95c-9377-60c6-2edd" type="profile"/>
+            <infoLink id="feab-6948-6038-7d6b" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule"/>
+            <infoLink id="180a-186e-2716-be5c" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+            <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+            <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="eb1f-0e1a-19a7-f244" name="Stub Gun" hidden="false" collective="false" import="true" targetId="7b63-7e80-0356-5968" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="5"/>
+          </modifiers>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="484f-fd2e-80bb-7ba4" name="Juve Trading Post" hidden="false" collective="false" import="true">
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c96b-1a38-2b33-214f" name="Close Combat Weapons" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="b9b4-337c-f414-65b8" name="Common" hidden="false" collective="false" import="true">
+              <entryLinks>
+                <entryLink id="6959-1070-9842-42b5" name="Fighting Knife" hidden="false" collective="false" import="true" targetId="ccc2-8a25-a51e-6e05" type="selectionEntry"/>
+                <entryLink id="74ae-9a69-4b13-aa0b" name="Axe" hidden="false" collective="false" import="true" targetId="fb84-2013-fa31-5ac2" type="selectionEntry"/>
+                <entryLink id="a125-4e0f-a47b-cffd" name="Club, maul or hammer" hidden="false" collective="false" import="true" targetId="9354-6d02-e98d-cac3" type="selectionEntry"/>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="066d-4e88-f06e-ce26" name="Pistols" hidden="false" collective="false" import="true">
+          <selectionEntryGroups>
+            <selectionEntryGroup id="fc18-fa05-9b09-5647" name="Common" hidden="false" collective="false" import="true">
+              <selectionEntries>
+                <selectionEntry id="5b26-ca3d-88e7-3665" name="Autopistol" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="e9ed-744d-0c50-5e35" name="Autopistol" hidden="false" targetId="bfc9-00f1-ff8a-0483" type="profile"/>
+                    <infoLink id="8f98-e0b0-d7bd-f17c" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule"/>
+                    <infoLink id="35a1-97fa-a1cd-07ba" name="Rapid Fire (X)" hidden="false" targetId="4e1d-8d84-5009-26e4" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+                    <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+                    <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0109-69f5-0f95-d80f" name="Laspistol" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="f59b-4c7e-2519-cc3d" name="Laspistol" hidden="false" targetId="a95c-9377-60c6-2edd" type="profile"/>
+                    <infoLink id="c242-051a-c28b-e7f0" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule"/>
+                    <infoLink id="ba5b-151c-3c4a-f5cc" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="10.0"/>
+                    <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+                    <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="235e-6b1e-9d22-62d5" name="Stub gun" hidden="false" collective="false" import="true" type="upgrade">
+                  <infoLinks>
+                    <infoLink id="7c08-87a5-ab31-be3c" name="Stub gun" hidden="false" targetId="bd50-9e11-50c4-b464" type="profile"/>
+                    <infoLink id="2978-6c29-f953-a09f" name="Plentiful" hidden="false" targetId="c823-a12f-6b9f-635c" type="rule"/>
+                    <infoLink id="aaa4-d5d9-9e21-b580" name="Pistol" hidden="false" targetId="3470-68c6-32c7-1662" type="rule"/>
+                  </infoLinks>
+                  <selectionEntryGroups>
+                    <selectionEntryGroup id="aa6e-d663-1ffd-b574" name="Pistol Upgrades" hidden="false" collective="false" import="true">
+                      <entryLinks>
+                        <entryLink id="cfb4-df14-a04f-0299" name="Stub Gun - Dumdum rounds" hidden="false" collective="false" import="true" targetId="cd74-7974-0214-b5a9" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="405e-344d-c051-0454" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                    </selectionEntryGroup>
+                  </selectionEntryGroups>
+                  <costs>
+                    <cost name=" Credits" typeId="0a70-8b99-2ebd-4ce3" value="5.0"/>
+                    <cost name=" Weapon slot" typeId="aa9b-e132-09d9-3ec0" value="1.0"/>
+                    <cost name=" Experience" typeId="e376-1490-44be-734d" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="6395-922c-64e9-4ed7" name="Juve Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="aa9b-e132-09d9-3ec0" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6f92-8690-be22-96e5" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="d3e8-c19b-777c-af5d" name="Juve Pistols" hidden="false" collective="false" import="true" targetId="d25f-a085-3167-7030" type="selectionEntryGroup"/>
+        <entryLink id="28f1-db79-f925-9b97" name="Juve Close Combat Weapons" hidden="false" collective="false" import="true" targetId="2583-c0e6-ea49-07d5" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="3bb9-ee5d-3d4b-ad19" name="Wargear" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="f94b-f821-6e9e-9f9e" name="Choke Gas Grenade" hidden="false" collective="false" import="true" targetId="73d7-fdbd-8808-1da6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="45.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc7d-ba3a-b74c-10fa" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1cb5-5a09-13a6-3e35" name="Scare Gas Grenade" hidden="false" collective="false" import="true" targetId="1bb0-8a3a-0f6c-d924" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="40.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0166-ccbe-890c-7092" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5952-e4ef-1a62-2763" name="Smoke Grenade" hidden="false" collective="false" import="true" targetId="cd87-0c9c-bf36-bd18" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4847-c392-9add-03ee" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4c3c-6623-c45e-fdd2" name="Flak Armour" hidden="false" collective="false" import="true" targetId="2f39-c31c-ada3-8ef1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5463-db96-afc0-90d2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2af2-b870-ea35-5b4b" name="Mesh Armour" hidden="false" collective="false" import="true" targetId="8c77-5bd4-b745-d608" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec6b-67be-697d-0ce0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a924-726d-5819-fecc" name="Bio-scanner" hidden="false" collective="false" import="true" targetId="210e-cd55-4f63-0557" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="30.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05df-4c61-1680-a406" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5f92-407f-e0bd-cc75" name="Filter plugs" hidden="false" collective="false" import="true" targetId="9a0a-f1f5-1517-9fcf" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4671-7957-c0c9-4d47" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="753e-f26f-6636-598e" name="Grapnel launcher" hidden="false" collective="false" import="true" targetId="a4ce-4271-d271-6800" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce14-07cc-8918-4d44" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6554-f51a-2139-02ac" name="Gunshroud" hidden="false" collective="false" import="true" targetId="06be-c737-625b-c2bc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78e3-9d82-c16c-e268" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0cdc-8785-31e1-a214" name="Infra-sight" hidden="false" collective="false" import="true" targetId="ef1e-c2cb-a47a-cc69" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a94-d6f4-297c-3ffb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c282-e0d6-0e3f-ecb3" name="Mono-sight" hidden="false" collective="false" import="true" targetId="0282-7a41-6380-71cc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="35.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8055-83f2-8d31-b179" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="79fb-eae8-d467-3426" name="Photo-goggles" hidden="false" collective="false" import="true" targetId="3e36-a84c-e1bc-2fa5" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="20.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3945-949a-4a54-bbea" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dbcb-2b93-dec4-ccc2" name="Respirator" hidden="false" collective="false" import="true" targetId="529c-afbb-cdc9-06a9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0f3-aed1-efeb-5736" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c982-f4d2-3acd-9e94" name="Skinblade" hidden="false" collective="false" import="true" targetId="b22c-473c-4b17-dde1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a87-869c-3f07-e58f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fdaf-fa57-cb82-78c0" name="Web solvent" hidden="false" collective="false" import="true" targetId="ef8d-0289-ec96-8040" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="25.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5685-3e03-51ee-637c" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="aacd-b97c-246f-28b0" name="Weapons" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="aa9b-e132-09d9-3ec0" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b12-09f2-c14d-a824" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="bc3b-2fec-4f67-7dfc" name="Deleque Weapons" hidden="false" collective="false" import="true" targetId="4f9b-50e3-8298-a20b" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="ad9e-2e9f-ab04-a8b3" name="Juve Wargear" hidden="false" collective="false" import="true">
+      <entryLinks>
+        <entryLink id="1d09-33e4-5183-0665" name="Respirator" hidden="false" collective="false" import="true" targetId="529c-afbb-cdc9-06a9" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc7d-d2ee-56f6-c38b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3680-57f5-0420-b53e" name="Gunshroud" hidden="false" collective="false" import="true" targetId="06be-c737-625b-c2bc" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="402b-27bf-ca6d-6dc6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="686d-2462-a2a1-9286" name="Filter plugs" hidden="false" collective="false" import="true" targetId="9a0a-f1f5-1517-9fcf" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="15.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f173-041b-0037-79c2" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="23e6-7f3c-3c58-4ec7" name="Skinblade" hidden="false" collective="false" import="true" targetId="b22c-473c-4b17-dde1" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="0a70-8b99-2ebd-4ce3" value="10.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="569b-0022-418b-fd18" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+</catalogue>
